@@ -9,7 +9,7 @@ const App = () => {
 
   return (
     <div className='app'>
-      <ExerciseList selectExercise={(exercise) => setSelectedExercise(exercise)} />
+      <ExerciseList selectExercise={(exercise) => setSelectedExercise(exercise)} selectedExercise={selectedExercise} />
       <ExerciseDetails selectedExercise={selectedExercise} />
     </div>
   );

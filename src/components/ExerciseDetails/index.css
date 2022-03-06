@@ -1,0 +1,20 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.exercise-details {
+    flex: 1;
+}
+
+.exercise-name {
+    font-size: 30px;
+}
+
+.exercise-video {
+    flex: 1;
+    height: 500px;
+}
