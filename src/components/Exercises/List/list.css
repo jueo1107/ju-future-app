@@ -1,0 +1,29 @@
+.exercises-list {
+    width: 500px;
+    background-color: rgb(54, 56, 57);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    color: white;
+}
+
+.exercise {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.exercise:hover {
+    background-color: rgba(128,128,128, 0.5);
+}
+
+.selected-exercise {
+    background-color: rgb(128,128,128);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.search-bar {
+    position: sticky;
+    top: 0;
+    height: 25px;
+    width: 200px;
+}

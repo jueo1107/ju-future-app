@@ -1,0 +1,33 @@
+.filters {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+}
+
+.search-bar {
+    margin-right: 10px;
+}
+
+.filters-popup {
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    right: 30px;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    background-color: grey;
+}
+
+.filter {
+    padding: 5px 0;
+}
+
+.apply-filters {
+    margin-top: 15px;
+    margin-right: 10px;
+}

@@ -10,6 +10,10 @@
     flex: 1;
 }
 
+.exercise-detail {
+    padding: 10px 0;
+}
+
 .exercise-name {
     font-size: 30px;
 }
