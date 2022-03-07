@@ -26,9 +26,8 @@ const ExerciseList = ({ exercisesList, selectExercise, selectedExerciseId }) => 
                 if (searchedFilterValue[searchedFilterValue.length - 1] === ',') {
                     searchedFilterValue = searchedFilterValue.slice(0, -1);
                 }
-                const exerciseValue = exercise[filter] && exercise[filter].toLowerCase();
-                const filteredExercise = searchedFilterValue ? exerciseValue && exerciseValue.includes(searchedFilterValue) : exercise;
-                return filteredExercise;
+                const filteredExercise = exercise[filter] && exercise[filter].toLowerCase().includes(searchedFilterValue);
+                return searchedFilterValue ? filteredExercise : exercise
             });
         };
 
