@@ -2,7 +2,7 @@ import React from 'react';
 
 import Exercises from './components/Exercises';
 
-import './app.css';
+import './App.css';
 
 const App = () => {
   return (
